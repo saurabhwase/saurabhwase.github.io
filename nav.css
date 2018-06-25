@@ -1,0 +1,514 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+#prior_nav{
+		background-color: #272c3f;
+		height: 29px;
+		width: 100%;
+		font-size:12.2px;
+		color: #e1e3e8;
+		font-family: 'regular', sans-serif;
+		z-index: -1;
+	}
+	#prior_nav ul{
+		margin-left:116px;
+	}
+#prior_nav ul li{
+
+			display:inline-block;
+			margin-left: 20px;
+			padding-top: 2.5px;
+
+
+}
+#prior_nav ul li a{
+    text-decoration:none; color : #e1e3e8;
+
+}
+.navbar{
+	margin: 0px!important;
+	padding: 0px!important;
+}
+.ot-hedn-dropdown:hover{
+    color:white; 
+     text-decoration:none; 
+     cursor:pointer; 
+}
+
+#t{
+	opacity: 0.01;
+}
+#prior_nav #aaa{
+	margin-left: 2%;
+	padding-right:10px;
+	 background-color:white; color: red;
+	 height:150px; width:100px; border-radius:20px;
+}
+#prior_nav #aaa2{
+
+font-size:11px;color:#fff;background-color:#80c641;padding: 4px 7px; border-radius: 10px;
+margin-bottom: 1%;margin-left: 0;
+
+}
+/*<div class="ot-dhead-select-style">
+                            <select name="P_lang" id="P_lang" onchange="lang_change(this.value)">
+                                <option value="1" selected="selected">English</option>
+                                <option value="2">हिन्दी </option>
+                                <option value="3">मराठी </option>
+                            </sc velect>
+                        </div>*/
+
+.androidicon{
+margin-left: 15px;
+height: 14px;
+width: 14px;
+vertical-align: middle;
+opacity: 0.7;
+}
+
+/*----main nav -----*/
+
+#abc{
+	height: 10px;
+	background-color: #003489;
+}
+.aaa{
+	height: 700px;
+	width: 100%;
+	background-color: yellow;
+	
+}
+
+
+
+.bg-company-red {
+    background-color: darkred;
+}
+/* --------------------------*/
+/* nav */
+.navbar{
+	background-color: #023D6B!important;
+	height: 58px;
+	text-align: center!important;
+	top: 0px;
+	 
+}
+
+.navbar .navbar-nav{
+	margin: 0 auto;
+
+}
+.navbar-nav{
+	margin:0 auto;
+	margin-left: 4%;
+}
+.navbar .nav-item{
+	margin-left: 26px;
+	padding-top: 0px;
+}
+.navbar .nav-item a{
+	
+	color: white!important;
+	font-size: 14px;
+	font-family: 'robotoregular', sans-serif;
+	font-weight: 550;
+}
+
+.navbar .nav-item a:hover{
+	background-color: #3c5592!important;
+}
+.ot-dhead-select-style {
+    padding: 0;
+    margin: 0;
+    margin-top: 0px;
+    height: auto;
+    float: left;
+    border-radius: 3px;
+    overflow: hidden;
+    border: 0.5px solid #fff;
+    background: #272c3f url(local-cdn/external-cdn/images/jan2016/header/select.png) no-repeat 90% 50%;
+    height: 14px;
+    background-color: #272C3F;
+}
+.langselector{
+	margin-left: 140px !important;
+	margin-top: inherit;
+	background-color:#272c3f; /*#272c3f;*/
+}
+.ot-dhead-select-style select{
+background-color:#272C3F;
+color: white;
+}
+
+
+
+/*--------------*/
+.ot-hedn-login{margin-left:10px;transition:.5s ease-in;
+	background:#f7982a;color:#fff;
+	border:none;
+	font-family:'Medium';
+	margin-top:14px;
+	padding:6px 25px;
+	border-radius:3px
+	}
+	.ot-hedn-login:hover,.ot-hedn-login:focus{color:#fff;opacity:.75}
+
+	.navbar .btn{
+			float: right;
+			margin: 7px 0px 0px 290px;
+			padding: 4px 24px 6px 24px;
+			font-family: 'Roboto', sans-serif;
+			font-size: 14px;
+			font-weight: 900;
+
+	}
+	.navbar img{
+		margin-right:110px;
+		padding: 0px;
+		padding-top: 0px;
+		
+	}
+	.dropdown-menu{
+		width: 100%!important;
+	}
+
+
+/* end nav */
+/*_________________________________________________________________________________*/
+/* banner */
+.banner{
+	padding: 0px;
+	margin: 0px;
+	width: 100%;
+    height: 275px;
+    position: relative;
+    background-repeat: no-repeat;
+
+}
+.no-pad{
+	padding:0px;
+	margin: 0px;
+}
+.banner #bannerimg{
+	width: 100%;
+    height: 275px;
+    z-index: -1;
+    padding: 0px!important;
+}
+
+.ot-hmd-main-bg {
+    width: 100%;
+    height: 275px;
+ 
+     position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: -1;
+
+}
+.ot-hmd-txt-img{
+	back
+}
+.ot-hmd-txt-img h1 {
+	padding-top: 60px;
+    font-family: 'Medium', sans-serif;
+    font-size: 40px;
+    color: #fff;
+    font-weight: 500;
+    line-height: 1.1;
+}
+.ot-hmd-txt-img p {
+    font-size: 20px;
+    color: #e6e6e6;
+    font-family: 'Medium', sans-serif;
+}
+.btn-default {
+    color: #333;
+    background-color: #f4a951;
+    border-color: #ccc;
+}
+.btn {
+
+    display: inline-block;
+    margin-bottom: 0;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 2px;
+
+padding: 10px 9px;
+    font-size: 16px;
+	font-weight:600; color: white;
+	margin-top: 18px;
+	font-family: 'Medium', sans-serif;
+			
+}
+
+
+/*why you love us */
+.media {
+    margin-top: 15px;
+}
+.media
+.ot-hmd-med-tp {
+    transition: .5s ease-in;
+    padding: 12px 20px;
+    border: 1px solid transparent;
+}
+.ot-hmd-med-hd {
+    font-size: 22px;
+    color: #0b3455;
+    font-family: 'Medium';
+    margin-top: 8px;
+}
+.media-heading {
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+
+/*===========================*/
+.heads h3{
+	font-size: 22px;
+    color: #0b3455;
+    font-family: 'Roboto', sans-serif;
+}
+.wyylovus{
+	margin-top: 70px;
+	margin-left: 0%;
+}
+.wyylovus .hbox:hover{
+    border: 1px solid #cccccc;
+}
+
+.wyylovus .round{
+	width: 80px;
+    height: 80px;
+    background: #fff;
+    padding: 18px 30px;
+    border-radius: 50%;
+    margin-top: 20%;
+    margin-left: 8%;
+}
+.wyylovus .round img{
+	width: 20px;
+    height: 40px;
+
+  
+}
+.wyylovus .hading{
+	font-size: 22px;
+    color: #0b3455;
+    font-family: 'Medium', sans-serif;
+    text-transform: uppercase;
+}
+/* ------------------------------------------------------------------------------------*/
+/* UP coming exams*/
+.upexam h3{
+	margin-top: 2%;
+	font-size: 22px;
+    color: #0b3455;
+    font-family: 'Roboto', sans-serif;
+}
+* {box-sizing: border-box}
+
+/* Style the tab */
+.tab {
+    float: left;
+    background-color: #ffffff;
+    width: 30%;
+    height: 300px;
+    box-shadow: 1px 1.732px 4px 0 rgba(81,81,81,.11);
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+    display: block;
+    color: black;
+    padding: 22px 16px;
+    width: 100%;
+    border: none;
+    outline: none;
+    text-align: left;
+    cursor: pointer;
+    transition: 0.3s;
+    font-size: 17px;
+    background-color: #efefef;
+    color: #474747;
+    font-size: 17px; font-weight: 900px;
+    font-family: 'Medium',sans-serif;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+    background-color: #ddd;
+}
+
+/* Create an active/current "tab button" class */
+.tab button.active {
+    background-color: #3da0e9;
+        color: #fff;
+            font-family: 'Medium', sans-serif;
+            
+}
+
+
+/* Style the tab content */
+.tabcontent {
+    float: left;
+    padding: 0px 12px;
+    border: 1px solid #ccc;
+    width: 70%;
+    border-left: none;
+    height: 300px;
+    background-color: #ffffff;
+}
+
+
+/**/
+
+/*2nd*/
+.mytab {
+    float: left;
+    background-color: #ffffff;
+    width: 30%;
+    height: 300px;
+}
+
+/* Style the buttons inside the tab */
+.mytab button {
+    display: block;
+    background-color: inherit;
+    color: black;
+    padding: 22px 16px;
+    width: 100%;
+    border: none;
+    outline: none;
+    text-align: left;
+    cursor: pointer;
+    transition: 0.3s;
+    font-size: 17px;
+    background-color: #efefef;
+}
+
+/* Change background color of buttons on hover */
+.mytab button:hover {
+    background-color: #ddd;
+}
+
+/* Create an active/current "tab button" class */
+.mytab button.active {
+    background-color: #ccc;
+}
+
+/* Style the tab content */
+.mytabcontent {
+    float: left;
+    padding: 0px 12px;
+    border: 1px solid #ccc;
+    width: 70%;
+    border-left: none;
+    height: 300px;
+    background-color: #ffffff;
+}
+/* ..............................................................*/
+.imgbox .innerimgbox:hover{
+	background-color: white;
+	transition: .5s ease-in;
+
+
+}    
+.imgbox .innerimgbox .imgtxtorng{
+	color: orange;
+}
+.imgbox img{
+	
+	vertical-align: middle;
+	padding: 22px 70px;
+}
+/* ......................................................................*/
+/* carosal testimonial */
+
+.scrnshort img{
+	z-index: -1;
+	position: relative;
+}
+.scrnshort form{
+    position: absolute;
+    top: 43%;
+    left: 40%;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    width: 310px;
+    
+}
+.scrnshort .btn{
+     position: absolute;
+    top: 63%;
+    left: 40%;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    width: 230px;
+    height: 45px;
+    border-radius: 5px;
+}
+.scrnshort .Gplaylogo{
+    position: absolute;
+    top: 66.2%;
+    left: 61%;
+}
+/*__________________________`_______________________________________________________*/
+/* footer */
+
+	
+
+/* --------------------------------------------------------------------------------*/
+
+.contaid{
+	width: !important;
+	background-color: red;
+	margin-left: x;
+	text-align: right;
+
+}
+/* footer */
+
+		#abc{
+			background-color:red;
+			height: 200px;
+		}
+		.botomfoter{
+			height: 600px;
+			font-size: 14px; color: #86a6c4;
+			font-family: 'Roboto', sans-serif;
+			text-transform: capitalize;
+			text-align: center;
+		}
+		.botomfoter .phead{
+			font-size: 19px; color: white;
+			text-transform: capitalize;
+			margin-left: 30px;
+
+		}
+		.botomfoter a{
+			color:#86a6c4;
+			padding-left: 
+		}
+		.footerdivimg{
+			text-align: center!important;
+		}
+
+.botomfoter p{
+		margin-left: px;
+}

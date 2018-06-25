@@ -1,0 +1,384 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+#prior_nav{
+		background-color: #272c3f;
+		height: 29px;
+		width: 100%;
+		font-size:12.2px;
+		color: #e1e3e8;
+		font-family: 'regular', sans-serif;
+		z-index: -1;
+	}
+	#prior_nav ul{
+		margin-left:116px;
+	}
+#prior_nav ul li{
+
+			display:inline-block;
+			margin-left: 20px;
+			padding-top: 2.5px;
+
+
+}
+#prior_nav ul li a{
+    text-decoration:none; color : #e1e3e8;
+
+}
+.navbar{
+	margin: 0px!important;
+	padding: 0px!important;
+}
+.ot-hedn-dropdown:hover{
+    color:white; 
+     text-decoration:none; 
+     cursor:pointer; 
+}
+
+#t{
+	opacity: 0.01;
+}
+#prior_nav #aaa{
+	margin-left: 2%;
+	padding-right:10px;
+	 background-color:white; color: red;
+	 height:150px; width:100px; border-radius:20px;
+}
+#prior_nav #aaa2{
+
+font-size:11px;color:#fff;background-color:#80c641;padding: 4px 7px; border-radius: 10px;
+margin-bottom: 1%;margin-left: 0;
+
+}
+
+/*<div class="ot-dhead-select-style">
+                            <select name="P_lang" id="P_lang" onchange="lang_change(this.value)">
+                                <option value="1" selected="selected">English</option>
+                                <option value="2">हिन्दी </option>
+                                <option value="3">मराठी </option>
+                            </sc velect>
+                        </div>*/
+
+.androidicon{
+margin-left: 15px;
+height: 14px;
+width: 14px;
+vertical-align: middle;
+opacity: 0.7;
+}
+
+/*----main nav -----*/
+
+#abc{
+	height: 10px;
+	background-color: #003489;
+}
+.aaa{
+	height: 700px;
+	width: 100%;
+	background-color: yellow;
+	
+}
+
+
+
+.bg-company-red {
+    background-color: darkred;
+}
+/* --------------------------*/
+/* nav */
+.navbar{
+	background-color: white!important;
+	height: 58px;
+	text-align: center!important;
+	top: 0px;
+	 
+}
+.navbar #searchb{
+ 
+}
+
+
+.navbar .navbar-nav{
+	margin: 0 auto;
+
+}
+.navbar-nav{
+	margin:0 auto;
+	margin-left: 4%;
+}
+.navbar .nav-item{
+	margin-left: 26px;
+	padding-top: 0px;
+}
+.navbar .nav-item a{
+	
+	color: black!important;
+	font-size: 14px;
+	font-family: 'robotoregular', sans-serif;
+	font-weight: 550;
+}
+
+.navbar .nav-item a:hover{
+	background-color: #f2f3f4!important;
+	/*height: 55px;*/
+
+}
+.ot-dhead-select-style {
+    padding: 0;
+    margin: 0;
+    margin-top: 0px;
+    height: auto;
+    float: left;
+    border-radius: 3px;
+    overflow: hidden;
+    border: 0.5px solid #fff;
+    background: #272c3f url(local-cdn/external-cdn/images/jan2016/header/select.png) no-repeat 90% 50%;
+    height: 14px;
+    background-color: #272C3F;
+}
+.langselector{
+	margin-left: 140px !important;
+	margin-top: inherit;
+	background-color:#272c3f; /*#272c3f;*/
+}
+.ot-dhead-select-style select{
+background-color:#272C3F;
+color: white;
+}
+
+
+
+/*--------------*/
+.ot-hedn-login{margin-left:10px;transition:.5s ease-in;
+	background:#f7982a;color:#fff;
+	border:none;
+	font-family:'Medium';
+	margin-top:14px;
+	padding:6px 25px;
+	border-radius:3px
+	}
+	.ot-hedn-login:hover,.ot-hedn-login:focus{color:#fff;opacity:.75}
+
+	.navbar .btn{
+			float: right;
+			margin: 7px 0px 0px 290px;
+			padding: 4px 24px 6px 24px;
+			font-family: 'Roboto', sans-serif;
+			font-size: 14px;
+			font-weight: 900;
+
+	}
+	.navbar img{
+		margin-right:110px;
+		padding: 0px;
+		padding-top: 0px;
+		
+	}
+	.dropdown-menu{
+		width: 100%!important;
+	}
+
+
+/* end nav */
+/*_________________________________________________________________________________*/
+/* Breadcrumb Pagination ************************************************************ */
+ul.breadcrumb {
+	margin-top: 1px;
+    padding: 0px 16px;
+    list-style: none;
+    background-color: #ffffff;
+    border-top: 1px solid #b2b2b7;
+    border-bottom: 1px solid #b2b2b7;
+   /* padding-left:134px;*/
+   padding-left: 10%;
+   border-radius: 0px;
+}
+ul.breadcrumb li {
+    display: inline;
+    font-size: 10.2px;
+    text-transform: uppercase; 
+    padding:12px 0px;
+    
+}
+ul.breadcrumb li+li:before {
+    padding: 8px;
+    color: black;
+    content: ">\00a0";
+}
+ul.breadcrumb li a {
+    color: #0275d8;
+    text-decoration: none;
+}
+ul.breadcrumb li a:hover {
+    color: #01447e;
+    text-decoration: underline;
+}
+/* end of Breadcrumb Pagination */
+
+/*intro */
+#intro.intro {
+    padding: 2% 0 0 0;
+}
+
+.intro {
+    width: 100%;
+    position: relative;
+    margin-left: 2%;
+}
+.intro .slogan {
+    text-align: center;
+}
+.info-container{
+    padding-bottom: 40px;
+    margin-top: 40px;
+    margin-bottom: -40px;
+    font-size: 16px;
+    margin-left: 90px;
+}
+#h2info{
+	font-weight:700;
+	font-size: 45px;
+	font-family: 'Montserrat',sans-serif;
+	letter-spacing:1.0px;
+
+	margin-top: 1px;
+	
+
+}
+#h4info{
+	margin-top: ;
+	font-size: 16px;
+	font-weight: 550;
+	line-height: 25px;
+	font-family: 'Roboto', sans-serif;
+	letter-spacing: 1.2px;
+	word-spacing: 2.6px;
+	text-align: justify;
+	margin-left: 2%;
+	
+
+}
+/*end intro*/
+/* our leader ship team*/
+
+.section-heading{
+	text-align: center;
+	margin-top: 52px;
+	font-weight: 500;
+	font-family: 'Roboto', sans-serif;
+
+
+}
+.picbgcolor{
+	background-color:#efefef;
+	margin-left: 20px;
+
+}
+.no-pad{
+	margin: 0px 0px!important;
+	padding: 0px 0px!important;
+
+}
+
+/* end our leader ship team*/
+
+/* footer */
+.Frstbox{
+	padding: 10px 0 10px 0;
+	background-color: #444;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 900; 
+	font-size: 14px;
+	text-align: center;
+}
+.Frstbox img{
+	border-radius: 5px;
+}
+.secndbox{
+	padding: 40px 0 0px 0;
+	background-color:#444 ;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 900;
+	font-size: 14px;
+	text-align: center;
+
+}
+.secndbox a{
+	color: #edeff2;
+    text-decoration: none;
+}
+.thirdbox{
+	background-color:#444 ;
+
+}
+.nastedthirdbox{
+			margin-top: 3.5%;
+			padding-top: 2%;
+			height:200px;
+			width: 70%;
+			background-color:white;
+			border-radius: 15px;
+			color: black;
+			font-size: 16px;
+			line-height: 15px;
+			font-weight: 600;
+	}
+.nastedthirdbox .swtapp{
+	font-size: 18px;
+	te
+}
+.nastedthirdbox button{
+		background-color: blue;
+		padding: 7px 50px 7px 50px;
+		border-radius: 5px;
+		border-color: transparent;
+		color: white;
+		font-size: 12px;
+
+
+}
+
+.fullbox{
+    background-color: #444;
+    border-top: 0.5px solid white;
+
+   font-family: 'Roboto', sans-serif;
+	font-weight: 900; 
+	font-size: 14px;
+	
+
+}
+.fullbox img{
+			margin-left: 4%;
+			border-radius: 45px;
+
+
+	}
+	
+/* end of footer*/
+/* ------------------------------------------------------------------------------------*/
+/* contact-us css */
+.officeadd{
+	
+	padding: 40px 40px 40px 40px;
+}
+.ofcaddr{
+	height:auto; 
+	width:80%;
+	background-color:#f8f8f8;
+	padding: 40px 40px 40px 40px;
+	 font-family: 'Roboto', sans-serif; 
+	font-size: 15px;
+	text-align: left;
+	line-height: 18px;
+}
+.officeadd_second{
+	padding: 40px 40px 40px 40px;
+	font-family: 'Roboto', sans-serif;
+	font-size: 15px;
+	text-align: center;
+	line-height: 18px;
+
+}

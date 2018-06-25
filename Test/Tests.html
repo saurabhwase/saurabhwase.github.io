@@ -1,0 +1,584 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="nav.css">
+
+    <link rel="stylesheet" type="text/css" href="sidenav.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+   <link href="https://fonts.googleapis.com/css?family=Roboto:500" rel="stylesheet">
+
+    <title>Hello, world!</title>
+  </head>
+  <body>
+
+
+    <!-- ******************************** -->
+<div class="container-fluid" style="margin:0px!important;padding:0px!important;">
+  <div class=" col-xs-12 col-sm-12 col-md-12 d-none d-xs-none d-sm-none d-md-block " style="margin:0px!important;padding:0px!important;">
+    <div id="prior_nav">
+    <ul >
+        <li><a href="">Current Affairs</a></li>
+        <li><a href="">News Articles</a></li>
+        <li><a href="">Job Alerts</a></li>
+        <li><a href="" d-none >Blog</a></li>
+        <li style="margin-bottom:10px;"><a href="" d-none >All India Tests<span id="aaa2">4</span></a></li>
+        <li><a href="">Test Packages</a></li>
+        <li><a style="color : orange;" href="">TyariPLUS Prepaid<span id="aaa"> <span id="t">t</span> new</span></a></li>
+        
+        <li class="langselector" style="padding-top:2.5px;" >
+          <div class="ot-dhead-select-style" style="border:0px;"> <p>Language <span id="t">t</span> </p> </div>
+         <div class="ot-dhead-select-style"  >
+                       <select name="P_lang" id="P_lang" id="langselector" onchange="lang_change(this.value)" >
+                                <option value="1" selected="selected">English</option>
+                                <option value="2">हिन्दी </option>
+                                <option value="3">मराठी </option>
+                            </select>
+           </div>
+        </li>
+        <li style="margin-left:10px; font-size:11.2px;"><a href=""> Download App<img class="androidicon" src="android-icon.png"></a></li>
+    </ul>
+    </div>
+  </div>
+</div>
+  <!-- main nav bar-->
+<div class="container-fluid" style="margin:0px!important;padding:0px!important;">
+  <div class=" col-xs-12 col-sm-12 col-md-12" style="margin:0px!important;padding:0px!important; ">
+  <nav class="navbar navbar-expand-lg navbar-light bg-light"  >
+    
+  <a class="navbar-brand" href="#"></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation" style="background-color:white;">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarTogglerDemo02" >
+    <ul class="navbar-nav">
+      <!-- side nav -->
+
+    <li style="font-size:30px; cursor:pointer; color:white; margin:auto; margin-right:58px; margin-left:0px;  vertical-align: middle;" class="d-none d-xl-inline-block" >&#9776;</li>
+      <li>
+      <a class=" d-none d-xl-inline-block" href="..\index.html"><img src="logo.png"></a>  
+      </li>
+
+
+                       
+
+
+      <li class="nav-item active ot-hedn-dropdown ">
+        <a class="nav-link" href="..\Test\Tests.html">TESTS</a>
+      </li>
+      <li class="nav-item active ot-hedn-dropdown">
+        <a class="nav-link" href="#">READ</a>
+      </li>
+    <li class="nav-item dropdown ot-hedn-dropdown">
+      <a class="nav-link " href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">EXAMS</a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="#">Action</a>
+          <a class="dropdown-item" href="#">Another action</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#">Something else here</a>
+        </div>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link" href="#">DISCUSS</a>
+      </li>
+       <li class="nav-item active">
+        <a class="nav-link" href="#">TyariPLUS</a>
+      </li>
+      <li>
+
+       <button type="button" class="btn btn-sm ot-hedn-login d-none d-xl-inline-block" data-toggle="modal" data-target="#my_login_modal" onclick="trackOutboundLink(true,'Navigation Drawer','Login','Login Intent');">Login / Register</button></li>
+    </ul>
+  </div>
+</nav>
+</div>
+</div>
+  <!--body-->
+
+  <div class="container">
+      <div class="row">
+          <div class="col-sm-12 mt-2 mb-2">
+              <div class="row">
+                <!-- accordition button -->
+                <div class="col-sm-3 " style="background-color:red;">
+                      <button class="colapsblility">Open Section 1</button>
+                      <div class="contnt">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                      </div>
+                      <button class="colapsblility">Open Section 2</button>
+                      <div class="contnt">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                      </div>
+
+                      <!-- script of toggler-->
+                      <script>
+                        var coll = document.getElementsByClassName("colapsblility");
+                        var i;
+
+                        for (i = 0; i < coll.length; i++) {
+                          coll[i].addEventListener("click", function() {
+                            this.classList.toggle("active");
+                            var content = this.nextElementSibling;
+                            if (content.style.maxHeight){
+                              content.style.maxHeight = null;
+                            } else {
+                              content.style.maxHeight = content.scrollHeight + "px";
+                            } 
+                          });
+                        }
+                        </script>
+                        <!-- end of script -->
+
+                </div>
+                <!-- end of accordition button -->
+
+                <div class="col-sm-9" style="background-color:#ffffff;">
+                    <div class="nesteddiv">
+                
+                     <button type="button" class="btn btn-warning " style="background-color:orange;color: white;">SSC Cgl tier-1 2018</button>
+                     <button type="button" class="btn btn-warning " style="">SSC CPO tier-1 2018 </button>
+                     <button type="button" class="btn btn-warning ">SSC Steno tier-1 2018</button>
+                     <button type="button" class="btn btn-warning ">SSC CHSL tier-1 2018</button>
+                     <button type="button" class="btn btn-warning " style="height: 34px;
+                      width: 81px;">more..</button>
+
+
+                     <h4 style="font-weight: 600;"> SSC CGL Tier- I Exam 2018  <button type="button" class="btn btn-warning " style="height: 34px;
+                      width: 81px; margin-left:12px; color:#71a6fc; border-color:#71a6fc;">+Follow</button></h4> 
+                      
+
+                    </div>
+                     <div class="nestedbox">
+                          <div class="tab">
+                              <button class="tablinks" onclick="openCity(event, 'All')" id="defaultOpen" style="color:#229eeb;">All(43)</button>
+                              <button class="tablinks left-space" onclick="openCity(event, 'Full Length')">Full Length(35)</button>
+                              <button class="tablinks left-space" onclick="openCity(event, 'Sessional')">SeCtional(8)</button>
+                              <button class="toglericon"><img src="List-icon_slected.png" style="height:22px;width:18px;"></button>    
+                             <button class="toglericon"><img src="thumbnail-icon.png" style="height:20px;width:20px;"></button> 
+                            </div>
+
+                          <!-- first tab content -->
+                            <div id="All" class="tabcontent">
+                                <div>
+                                  
+                                    <div class="Examinfo" style="margin-top: 50px;">
+                                              
+                                                 <h1>CGL tiar1 test (free)</h1>   
+                                                 <div>question <br> 100</div>
+                                                 <div>question <br> 100</div>
+                                                 <div>question <br> 100</div>
+                                                 <div>question <br> 100</div>
+                          <!--<div class="posibutondiv" style="margin-right:10%;"> <button>Start Test</button> </div>-->
+                                            <a href=""><button style="margin-bottom:5px;">Start Test</button></a>
+
+                                  </div>
+                                  <div class="Examinfo" style="margin-top: 10px;">
+                                              
+                                                 <h1>ZZZZ tiar1 test (free)</h1>   
+                                                 <div>question <br> 100</div>
+                                                 <div>question <br> 100</div>
+                                                 <div>question <br> 100</div>
+                                                 <div>question <br> 100</div>
+                        
+                                            <a href=""><button>Start Test</button></a>
+
+                                  </div>
+                                  <div class="Examinfo" style="margin-top: 10px;">
+                                              
+                                                 <h1>ZZZZ tiar1 test (free)</h1>   
+                                                 <div>question <br> 100</div>
+                                                 <div>question <br> 100</div>
+                                                 <div>question <br> 100</div>
+                                                 <div>question <br> 100</div>
+                         
+                                            <a href=""><button>Start Test</button></a>
+
+                                  </div>
+                                  <div class="Examinfo" style="margin-top: 10px;">
+                                              
+                                                 <h1>ZZZZ tiar1 test (free)</h1>   
+                                                 <div>question <br> 100</div>
+                                                 <div>question <br> 100</div>
+                                                 <div>question <br> 100</div>
+                                                 <div>question <br> 100</div>
+                        
+                                            <a href=""><button>Start Test</button></a>
+
+                                  </div>
+                                  <div class="Examinfo" style="margin-top: 10px;">
+                                              
+                                                 <h1>ZZZZ tiar1 test (free)</h1>   
+                                                 <div>question <br> 100</div>
+                                                 <div>question <br> 100</div>
+                                                 <div>question <br> 100</div>
+                                                 <div>question <br> 100</div>
+                        
+                                            <a href=""><button>Start Test</button></a>
+
+                                  </div>
+                                  <div class="Examinfo" style="margin-top: 10px;">
+                                              
+                                                 <h1>ZZZZ tiar1 test (free)</h1>   
+                                                 <div>question <br> 100</div>
+                                                 <div>question <br> 100</div>
+                                                 <div>question <br> 100</div>
+                                                 <div>question <br> 100</div>
+                        
+                                            <a href=""><button>Start Test</button></a>
+
+                                  </div>
+                                  <div class="Examinfo" style="margin-top: 10px;">
+                                              
+                                                 <h1>ZZZZ tiar1 test (free)</h1>   
+                                                 <div>question <br> 100</div>
+                                                 <div>question <br> 100</div>
+                                                 <div>question <br> 100</div>
+                                                 <div>question <br> 100</div>
+                         
+                                            <a href=""><button>Start Test</button></a>
+
+                                  </div>
+                                  <div class="Examinfo" style="margin-top: 10px;">
+                                              
+                                                 <h1>ZZZZ tiar1 test (free)</h1>   
+                                                 <div>question <br> 100</div>
+                                                 <div>question <br> 100</div>
+                                                 <div>question <br> 100</div>
+                                                 <div>question <br> 100</div>
+                         
+                                            <a href=""><button>Start Test</button></a>
+
+                                  </div>
+                                  <div class="Examinfo" style="margin-top: 10px;">
+                                              
+                                                 <h1>ABCD tiar1 test (free)</h1>   
+                                                 <div>question <br> 100</div>
+                                                 <div>question <br> 100</div>
+                                                 <div>question <br> 100</div>
+                                                 <div>question <br> 100</div>
+
+                                            <a href=""><button>Start Test</button></a>
+
+                                  </div>
+
+                                </div>  
+                            </div>
+<!--end first tab content ..............................................................-->
+
+                              <!-- 2nd tab content -->
+                            <div id="Full Length" class="tabcontent">
+                              <div>
+                                  
+                                    <div class="Examinfo" style="margin-top: 50px;">
+                                              
+                                                 <h1>SGL tiar1 test (free)</h1>   
+                                                 <div>question <br> 100</div>
+                                                 <div>question <br> 100</div>
+                                                 <div>question <br> 100</div>
+                                                 <div>question <br> 100</div>
+                          <!--<div class="posibutondiv" style="margin-right:10%;"> <button>Start Test</button> </div>-->
+                                            <a href=""><button>Start Test</button></a>
+
+                                  </div>
+                                  <div class="Examinfo" style="margin-top: 10px;">
+                                              
+                                                 <h1>ABCD tiar1 test (free)</h1>   
+                                                 <div>question <br> 100</div>
+                                                 <div>question <br> 100</div>
+                                                 <div>question <br> 100</div>
+                                                 <div>question <br> 100</div>
+
+                                            <a href=""><button>Start Test</button></a>
+
+                                  </div>
+                                  <div class="Examinfo" style="margin-top: 10px;">
+                                              
+                                                 <h1>ABCD tiar1 test (free)</h1>   
+                                                 <div>question <br> 100</div>
+                                                 <div>question <br> 100</div>
+                                                 <div>question <br> 100</div>
+                                                 <div>question <br> 100</div>
+
+                                            <a href=""><button>Start Test</button></a>
+
+                                  </div>
+                                  <div class="Examinfo" style="margin-top: 10px;">
+                                              
+                                                 <h1>ABCD tiar1 test (free)</h1>   
+                                                 <div>question <br> 100</div>
+                                                 <div>question <br> 100</div>
+                                                 <div>question <br> 100</div>
+                                                 <div>question <br> 100</div>
+
+                                            <a href=""><button>Start Test</button></a>
+
+                                  </div>
+                                  <div class="Examinfo" style="margin-top: 10px;">
+                                              
+                                                 <h1>ABCD tiar1 test (free)</h1>   
+                                                 <div>question <br> 100</div>
+                                                 <div>question <br> 100</div>
+                                                 <div>question <br> 100</div>
+                                                 <div>question <br> 100</div>
+
+                                            <a href=""><button>Start Test</button></a>
+
+                                  </div>
+                                  <div class="Examinfo" style="margin-top: 10px;">
+                                              
+                                                 <h1>ABCD tiar1 test (free)</h1>   
+                                                 <div>question <br> 100</div>
+                                                 <div>question <br> 100</div>
+                                                 <div>question <br> 100</div>
+                                                 <div>question <br> 100</div>
+
+                                            <a href=""><button>Start Test</button></a>
+
+                                  </div>
+                                  <div class="Examinfo" style="margin-top: 10px;">
+                                              
+                                                 <h1>ABCD tiar1 test (free)</h1>   
+                                                 <div>question <br> 100</div>
+                                                 <div>question <br> 100</div>
+                                                 <div>question <br> 100</div>
+                                                 <div>question <br> 100</div>
+
+                                            <a href=""><button>Start Test</button></a>
+
+                                  </div>
+                                  <div class="Examinfo" style="margin-top: 10px;">
+                                              
+                                                 <h1>ABCD tiar1 test (free)</h1>   
+                                                 <div>question <br> 100</div>
+                                                 <div>question <br> 100</div>
+                                                 <div>question <br> 100</div>
+                                                 <div>question <br> 100</div>
+
+                                            <a href=""><button >Start Test</button></a>
+
+                                  </div>
+
+                                </div> 
+                            </div>
+                            <!-- end of 2nd tab content -->
+                            <!-- 3rd tab content -->
+                            <div id="Sessional" class="tabcontent">
+                              <div>
+                                  
+                                    <div class="Examinfo" style="margin-top: 50px;">
+                                              
+                                                 <h1>ZZZZ tiar1 test (free)</h1>   
+                                                 <div>question <br> 100</div>
+                                                 <div>question <br> 100</div>
+                                                 <div>question <br> 100</div>
+                                                 <div>question <br> 100</div>
+                          
+                                            <a href=""><button>Start Test</button></a>
+
+                                  </div>
+                                  <div class="Examinfo" style="margin-top: 10px;">
+                                              
+                                                 <h1>ABCD tiar1 test (free)</h1>   
+                                                 <div>question <br> 100</div>
+                                                 <div>question <br> 100</div>
+                                                 <div>question <br> 100</div>
+                                                 <div>question <br> 100</div>
+
+                                            <a href=""><button>Start Test</button></a>
+
+                                  </div>
+                                  <div class="Examinfo" style="margin-top: 10px;">
+                                              
+                                                 <h1>ABCD tiar1 test (free)</h1>   
+                                                 <div>question <br> 100</div>
+                                                 <div>question <br> 100</div>
+                                                 <div>question <br> 100</div>
+                                                 <div>question <br> 100</div>
+
+                                            <a href=""><button>Start Test</button></a>
+
+                                  </div>
+                                  <div class="Examinfo" style="margin-top: 10px;">
+                                              
+                                                 <h1>ABCD tiar1 test (free)</h1>   
+                                                 <div>question <br> 100</div>
+                                                 <div>question <br> 100</div>
+                                                 <div>question <br> 100</div>
+                                                 <div>question <br> 100</div>
+
+                                            <a href=""><button>Start Test</button></a>
+
+                                  </div>
+                                  <div class="Examinfo" style="margin-top: 10px;">
+                                              
+                                                 <h1>ABCD tiar1 test (free)</h1>   
+                                                 <div>question <br> 100</div>
+                                                 <div>question <br> 100</div>
+                                                 <div>question <br> 100</div>
+                                                 <div>question <br> 100</div>
+
+                                            <a href=""><button>Start Test</button></a>
+
+                                  </div>
+                                  <div class="Examinfo" style="margin-top: 10px;">
+                                              
+                                                 <h1>ABCD tiar1 test (free)</h1>   
+                                                 <div>question <br> 100</div>
+                                                 <div>question <br> 100</div>
+                                                 <div>question <br> 100</div>
+                                                 <div>question <br> 100</div>
+
+                                            <a href=""><button>Start Test</button></a>
+
+                                  </div>
+                                  <div class="Examinfo" style="margin-top: 10px;">
+                                              
+                                                 <h1>ABCD tiar1 test (free)</h1>   
+                                                 <div>question <br> 100</div>
+                                                 <div>question <br> 100</div>
+                                                 <div>question <br> 100</div>
+                                                 <div>question <br> 100</div>
+
+                                            <a href=""><button>Start Test</button></a>
+
+                                  </div>
+                                  <div class="Examinfo" style="margin-top: 10px;">
+                                              
+                                                 <h1>ABCD tiar1 test (free)</h1>   
+                                                 <div>question <br> 100</div>
+                                                 <div>question <br> 100</div>
+                                                 <div>question <br> 100</div>
+                                                 <div>question <br> 100</div>
+
+                                            <a href=""><button>Start Test</button></a>
+
+                                  </div>
+
+
+
+                                </div> 
+                            </div>
+                  <!-- end of 3rd tab content -->
+                        <!-- script of the tab -->
+                        <script>
+                            function openCity(evt, cityName) {
+                                var i, tabcontent, tablinks;
+                                tabcontent = document.getElementsByClassName("tabcontent");
+                                for (i = 0; i < tabcontent.length; i++) {
+                                    tabcontent[i].style.display = "none";
+                                }
+                                tablinks = document.getElementsByClassName("tablinks");
+                                for (i = 0; i < tablinks.length; i++) {
+                                    tablinks[i].className = tablinks[i].className.replace(" active", "");
+                                }
+                                document.getElementById(cityName).style.display = "block";
+                                evt.currentTarget.className += " active";
+                            }
+
+                            // Get the element with id="defaultOpen" and click on it
+                            document.getElementById("defaultOpen").click();
+                            </script>
+                            <!-- end of script of the tab -->
+                    </div>
+                </div>
+              </div>
+          </div>
+     </div>
+  </div>
+<!-- end body -->
+
+
+  <!--  footer  -->
+      <div class="container-fluid botomfoter" style="background-color:#023D6B!important;">
+          <div class="row" style="background-color:#023D6B!important;">
+              <div class="col-md-12">
+                  <div class="row pt-5">
+                    
+                      
+                      <div class="col-md-3">
+                            <p class="phead"> online tyari </p>
+                            <a href="..\index.html"><p> <img src="play2.png" style="height:20px;width:20px;">Home</p></a>  <!-- icon -->
+                            <a href="..\Staticpages\about-us.html"><p><img src="play2.png" style="height:20px;width:20px;">About-us</p></a>
+                            <a href="..\Staticpages\contact-us.html"><p><img src="play2.png" style="height:20px;width:20px;">Contact-Us</p></a>
+                            <a href=""><p><img src="play2.png" style="height:20px;width:20px;">Blog</p></a>
+                            <a href=""><p><img src="play2.png" style="height:20px;width:20px;">FAQ</p></a>
+                      </div>
+                      <div class="col-md-2">
+                            <p class="phead">Popular Exams:</p>
+                            <a href=""><p><img src="play2.png" style="height:20px;width:20px;">Railway group D 2018</p></a>
+                            <a href=""><p><img src="play2.png" style="height:20px;width:20px;">RRB ALP 2018</p></a>
+                            <a href=""><p><img src="play2.png" style="height:20px;width:20px;">SSC CGL</p></a>
+                            <a href=""><p><img src="play2.png" style="height:20px;width:20px;">SSC CPO</p></a>
+                            <a href=""><p><img src="play2.png" style="height:20px;width:20px;">SSC CLERK</p></a>
+                            <a href=""><p><img src="play2.png" style="height:20px;width:20px;">SSC</p></a>
+                            <a href=""><p><img src="play2.png" style="height:20px;width:20px;">IAS</p></a>
+                            <a href=""><p><img src="play2.png" style="height:20px;width:20px;">Bank</p></a>
+                            <a href=""><p><img src="play2.png" style="height:20px;width:20px;">State</p></a>
+                      </div>
+                      <div class="col-md-2">
+                            <p class="phead">Study Materials:</p>
+                            <a href=""><p><img src="play2.png" style="height:20px;width:20px;">Test packages</p></a>
+                            <a href=""><p><img src="play2.png" style="height:20px;width:20px;">Qustion banks</p></a>
+                            <a href=""><p><img src="play2.png" style="height:20px;width:20px;">Current Affairs</p></a>
+                           <a href=""> <p><img src="play2.png" style="height:20px;width:20px;">Math and Quantitative aptitude</p></a>
+                      </div>
+                      <div class="col-md-2">
+                            <p class="phead">Change Language:</p>
+                           <a href=""> <p><img src="play2.png" style="height:20px;width:20px;">English</p></a>
+                           <a href=""> <p><img src="play2.png" style="height:20px;width:20px;">हिंदी</p></a>
+                           <a href=""> <p><img src="play2.png" style="height:20px;width:20px;">मराठी</p></a>
+                           
+                      </div>
+                      <div class="col-md-2">
+                            <p class="phead">Terms and Policies </p>
+                            <a href=""><p><img src="play2.png" style="height:20px;width:20px;">Privacy</p></a>
+                            <a href=""><p><img src="play2.png" style="height:20px;width:20px;">Terms</p></a>
+                            <a href=""><p><img src="play2.png" style="height:20px;width:20px;">Sitemap</p></a>
+                      </div>
+                      <div class="col-md-1">
+
+                      </div>
+                  </div>
+              </div>
+              <div class="col-md-12" style="text-align:center;">
+                <div class="row">
+                <div class="col-md-3">
+                   <a href=""> <img src="googleplay.png" style="height:70px;width:180px;border-radius:45px;"></a>
+                </div>
+                <div class="col-md-3">
+                   
+                </div>
+
+                <div class="col-md-6">
+                  follow us on
+                 <a href=""><img src="fb.jpg"style="height:35px;width:35px;border-radius:45px; margin-right:2%; margin-left:2%;" ></a> 
+                  <a href=""><img src="link.png"style="height:35px;width:35px;border-radius:45px;margin-right:2%;"></a>
+                  <a href=""><img src="google+.png"style="height:35px;width:35px;border-radius:45px;margin-right:2%;"></a>
+                  <a href=""><img src="Instagram.png"style="height:35px;width:35px;border-radius:45px;margin-right:2%;"></a>
+                </div>
+             </div>
+            </div>
+          </div>
+      </div>
+      <!-- follow us icons -->
+     
+
+     
+
+      <!-- end of follow us icons -->
+
+  <!-- end  footer  -->
+    <!-- Optional JavaScript -->
+    <script src="sidenav.js" type="text/javascript"></script>
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+  </body>
+</html>
